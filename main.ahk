@@ -4,13 +4,16 @@
 :*:aadk::dkreuter@otgexp.com
 :*:aasa::/etc/nginx/sites-available
 :*:aase::/etc/nginx/sites-enabled
+return
 
+^!z::Run, C:\Program Files\process-explorer\procexp64.exe
+return
 
 
 ; ########## EXAMPLES ##########
 
 ; ------------------------------
-; reconfigure caps lock to display an on/off window that doesn't close after making a selection with a confirmation message
+; reconfigure caps lock to display an on/off window that doesn't close
 
 ;CapsLock::
 ;Gui, Add, Button, gB, ON
